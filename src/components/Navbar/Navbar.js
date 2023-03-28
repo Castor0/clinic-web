@@ -42,7 +42,7 @@ const Navbar = () => {
             <NavBarContainer>
                 <NavLogo to='/'>
                     <NavIcon />
-                        CLINIC
+                    Kim Clemence Dental Center
                 </NavLogo>
                 <MobileIcon
                   onClick = {handleClick}

@@ -6,7 +6,7 @@ import { Container } from '../../globalStyles';
 
 
 export const Nav = styled.nav`
-background: #0a0109;
+background: #1d1022;
 height: 80px;
 display: flex;
 justify-content: center;
@@ -23,6 +23,7 @@ justify-content: space-between;
 height: 80px;
 
 
+
 ${Container}
 `;
 
@@ -34,6 +35,11 @@ font-size: 2rem;
 text-decoration: none;
 display: flex;
 align-items: center;
+
+
+@media screen and (max-width: 960px) {
+    font-size: 1.25rem;
+}
 `
 
 export const NavIcon = styled(FaClinicMedical)`
@@ -74,7 +80,7 @@ text-align: center;
 left: ${({click}) => (click ? 0 : '-100%')};
 opacity: 1;
 transition: all 0.5s ease;
-background: #101522;
+background: #1d1022;
 }
 `;
 
@@ -83,7 +89,7 @@ height: 80px;
 border-bottom: 2px solid transparent;
 
 &:hover {
-    border-bottom: 2px solid #4b59f7;
+    border-bottom: 2px solid #934bf7;
 }
 
 
@@ -112,7 +118,7 @@ height: 100%;
 
 
     &:hover{
-        color: #4b59f7;
+        color: #934bf7;
         transition: all 0.3s ease;
     }
 }

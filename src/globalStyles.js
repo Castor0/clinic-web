@@ -30,7 +30,7 @@ padding-left: 50px;
 
 export const Button = styled.button`
 border-radius: 4px;
-background: ${({primary}) => (primary ? '#4B59F7' : '#0467FB')};
+background: ${({primary}) => (primary ? '#934bf7' : '#6800f7')};
 white-space: nowrap;
 padding: ${({big}) => (big ? '12px 64px' : '10px 20px')};
 color: #fff;
@@ -43,7 +43,7 @@ cursor: pointer;
 &:hover {
     transition: all 0.3s ease-out;
     background: #fff;
-    background: ${({primary}) => (primary ? '#0467FB' : '#4B59F7')}; 
+    background: ${({primary}) => (primary ? '#6800f7' : '#934bf7')}; 
 }
 
 
