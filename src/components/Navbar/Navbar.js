@@ -42,7 +42,7 @@ const Navbar = () => {
             <NavBarContainer>
                 <NavLogo to='/'>
                     <NavIcon />
-                    KIM CLEMENS MEDICAL CENTER
+                    KIM CLEMENS DENTAL CLINIC
                 </NavLogo>
                 <MobileIcon
                   onClick = {handleClick}
@@ -57,15 +57,15 @@ const Navbar = () => {
                     <NavLinks to='/services'>Services</NavLinks>
                   </NavItem>
                   <NavItem>
-                    <NavLinks to='/services'>About Us</NavLinks>
+                    <NavLinks to='/about'>About Us</NavLinks>
                   </NavItem>
                   <NavItemBtn>
                     {button ? (
-                      <NavBtnLink to='/book-appointment'>
+                      <NavBtnLink to='/about'>
                         <Button primary> Learn More </Button>
                       </NavBtnLink>
                     ): (
-                      <NavBtnLink to ='/book-appointment'>
+                      <NavBtnLink to ='/about'>
                         <Button fontBig primary> Learn More </Button>
                       </NavBtnLink>
                     )}
