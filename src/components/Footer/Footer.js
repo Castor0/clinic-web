@@ -1,4 +1,6 @@
 import React from 'react';
+import {
+  FaFacebook, FaInstagram, FaLinkedIn, FaTwitter} from 'react-icons/fa';
 import { Button } from '../../globalStyles';
 import { 
   FooterContainer,
@@ -75,6 +77,15 @@ const Footer = () => {
           <SocialIcons>
             <SocailIconLink href='/' target='_blank' aria-label="Facebook"> 
               <FaFacebook />
+            </SocailIconLink>
+            <SocailIconLink href='/' target='_blank' aria-label="Twitter"> 
+              <FaTwitter />
+            </SocailIconLink>
+            <SocailIconLink href='/' target='_blank' aria-label="Instagram"> 
+              <FaInstagram />
+            </SocailIconLink>
+            <SocailIconLink href='/' target='_blank' aria-label="Linkedin"> 
+              <FaLinkedin />
             </SocailIconLink>
           </SocialIcons>
         </SocialMedia>
