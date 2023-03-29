@@ -7,7 +7,9 @@ import {
   TextWrapper,
   TopLine,
   Heading,
-  SubTitle
+  SubTitle,
+  ImgWrapper,
+  Img
 } from './InfoSection.elements'
 import { Container, Button } from '../../globalStyles'
 
@@ -21,7 +23,10 @@ const InfoSection = ({
   lightText,
   headline,
   buttonLabel,
-  description
+  description,
+  start,
+  img,
+  alt
 }) => {
   return (
     <>
@@ -35,13 +40,18 @@ const InfoSection = ({
                   <TopLine ligthTopLine= {ligthTopLine} > {topLine} </TopLine>
                   <Heading lightText= {lightText} > {headline} </Heading>
                   <SubTitle lightTextDesc= {lightTextDesc} > {description} </SubTitle>
-                  <Link to='/sign-up'>
+                  <Link to='about'>
                     <Button big fontBig primary= {primary}
                     >
                       {buttonLabel}
                     </Button>
                   </Link>                  
                 </TextWrapper>
+              </InfoColumn>
+              <InfoColumn>
+                <ImgWrapper start={start}>
+                  <Img src={img} alt={alt} />
+                </ImgWrapper>
               </InfoColumn>
             </InfoRow>
           </Container>

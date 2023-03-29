@@ -42,7 +42,7 @@ const Navbar = () => {
             <NavBarContainer>
                 <NavLogo to='/'>
                     <NavIcon />
-                    Kim Clemence Dental Center
+                    KIM CLEMENS MEDICAL CENTER
                 </NavLogo>
                 <MobileIcon
                   onClick = {handleClick}
@@ -54,19 +54,19 @@ const Navbar = () => {
                     <NavLinks to='/'>Home</NavLinks>
                   </NavItem>
                   <NavItem>
-                    <NavLinks to='/about'>About Us</NavLinks>
+                    <NavLinks to='/services'>Services</NavLinks>
                   </NavItem>
                   <NavItem>
-                    <NavLinks to='/services'>Services</NavLinks>
+                    <NavLinks to='/services'>About Us</NavLinks>
                   </NavItem>
                   <NavItemBtn>
                     {button ? (
                       <NavBtnLink to='/book-appointment'>
-                        <Button primary> Book Now</Button>
+                        <Button primary> Learn More </Button>
                       </NavBtnLink>
                     ): (
                       <NavBtnLink to ='/book-appointment'>
-                        <Button fontBig primary> Book Appointment </Button>
+                        <Button fontBig primary> Learn More </Button>
                       </NavBtnLink>
                     )}
                   </NavItemBtn>

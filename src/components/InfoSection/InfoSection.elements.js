@@ -46,7 +46,7 @@ export const TextWrapper= styled.div`
 `;
 
 export const TopLine= styled.div`
-color: ${({lightTopLine}) => (lightTopLine ? '#a9b3c1' : '#4b59f7')};
+color: ${({lightTopLine}) => (lightTopLine ? '#261c37' : '#6800f7')};
 font-size: 18px;
 line-height: 16px;
 letter-spacing: 1.4px;
@@ -65,5 +65,20 @@ max-width: 440px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
-color: ${({lightTextDesc}) => (lightTextDesc ? '#a9b3c1' : '#1c2237')};
+color: ${({lightTextDesc}) => (lightTextDesc ? '#b2a9c1' : '#261c37')};
 `;
+
+export const ImgWrapper= styled.div`
+    max-width: 555px;
+    display: flex;
+    justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+`;
+
+export const Img= styled.img`
+    padding-right: 0;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 500px;
+`

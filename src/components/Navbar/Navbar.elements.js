@@ -1,54 +1,53 @@
 import styled from 'styled-components';
 import { FaClinicMedical } from 'react-icons/fa';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
 
 
 export const Nav = styled.nav`
-background: #1d1022;
-height: 80px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 1.2rem;
-position: sticky;
-top: 0;
-z-index: 999;
-`
+    background: #1d1022;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+`;
 
 export const NavBarContainer = styled(Container)`
-display: flex;
-justify-content: space-between;
-height: 80px;
-
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
 
 
 ${Container}
 `;
 
 export const NavLogo = styled(Link)`
-color: #fff;
-justify-self: start;
-cursor: pointer;
-font-size: 2rem;
-text-decoration: none;
-display: flex;
-align-items: center;
+    color: #fff;
+    justify-self: start;
+    cursor: pointer;
+    font-size: 2.2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 
 
 @media screen and (max-width: 960px) {
     font-size: 1.25rem;
 }
-`
+`;
 
 export const NavIcon = styled(FaClinicMedical)`
-margin-right: 0.5rem;
-`
+    margin-right: 0.5rem;
+`;
 
 
 export const MobileIcon = styled.div`
-display: none;
+    display: none;
 
 
 
@@ -64,10 +63,10 @@ display: none;
 `;
 
 export const NavMenu =styled.ul`
-display: flex;
-align-items: center;
-list-style: none;
-text-align: center;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
 
 
 @media screen and (max-width: 960px) {
@@ -77,19 +76,19 @@ text-align: center;
     height: 90vh;
     position: absolute;
     top: 80px;
-left: ${({click}) => (click ? 0 : '-100%')};
-opacity: 1;
-transition: all 0.5s ease;
-background: #1d1022;
+    left: ${({click}) => (click ? 0 : '-100%')};
+    opacity: 1;
+    transition: all 0.5s ease;
+    background: #1d1022;
 }
 `;
 
 export const NavItem =styled.li`
-height: 80px;
-border-bottom: 2px solid transparent;
+    height: 80px;
+    border-bottom: 2px solid transparent;
 
 &:hover {
-    border-bottom: 2px solid #934bf7;
+    border-bottom: 2px solid #6800f7;
 }
 
 
@@ -100,15 +99,15 @@ border-bottom: 2px solid transparent;
         border: none;
     }
 }
-`
+`;
 
 export const NavLinks = styled(Link)`
-color: white;
-display: flex;
-align-items: center;
-text-decoration: none;
-padding: 0.5rem 1rem;
-height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
 
 @media screen and (max-width: 960px) {
     text-align: center;
@@ -116,13 +115,13 @@ height: 100%;
     width: 100%;
     display: table;
 
-
-    &:hover{
-        color: #934bf7;
-        transition: all 0.3s ease;
-    }
+&:hover{
+    color: #934bf7;
+    transition: all 0.3s ease;
 }
-`
+}
+`;
+
 export const NavItemBtn = styled.li`
 @media screen and (max-width: 960px) {
     display: flex;
@@ -131,18 +130,18 @@ export const NavItemBtn = styled.li`
     width: 100%;
     height: 120px;
 }
-`
+`;
 
 export const NavBtnLink = styled(Link)`
-display: flex;
-justify-content: center;
-align-items: center;
-text-decoration: none;
-padding: 8px 16px;
-height: 100%;
-width: 100%;
-border: none;
-outline: none;
-`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+`;
 
 
