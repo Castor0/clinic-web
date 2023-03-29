@@ -36,7 +36,8 @@ const InfoSection = ({
                   <Heading lightText= {lightText} > {headline} </Heading>
                   <SubTitle lightTextDesc= {lightTextDesc} > {description} </SubTitle>
                   <Link to='/sign-up'>
-                    <Button big fontBig primary= {primary}>
+                    <Button big fontBig primary= {primary}
+                    >
                       {buttonLabel}
                     </Button>
                   </Link>                  
