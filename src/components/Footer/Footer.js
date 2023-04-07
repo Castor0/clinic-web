@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  FaFacebook, FaInstagram, FaLinkedIn, FaTwitter} from 'react-icons/fa';
+  FaFacebook, FaInstagram, FaLinkedin, FaTwitter} from 'react-icons/fa';
 import { Button } from '../../globalStyles';
 import { 
   FooterContainer,
@@ -13,7 +13,13 @@ import {
   FooterLinksWrapper,
   FooterLinksItems,
   FooterLink,
-  FooterLinkTitle
+  FooterLinkTitle,
+  SocialMedia,
+  SocialLogo,
+  SocialIcon,
+  WebsiteRights,
+  SocialIcons,
+  SocialIconLink,
 } from './Footer.elements';
 
 const Footer = () => {
@@ -51,6 +57,8 @@ const Footer = () => {
             <FooterLink to='/'>How it works</FooterLink>
             <FooterLink to='/'>Terms of Service</FooterLink>
           </FooterLinksItems>
+          </FooterLinksWrapper>
+          <FooterLinksWrapper>
           <FooterLinksItems>
             <FooterLinkTitle>Videos</FooterLinkTitle>
             <FooterLink to='/sign-up'>How it works</FooterLink>
@@ -75,18 +83,18 @@ const Footer = () => {
           </SocialLogo>
           <WebsiteRights>KIM CLEMENS DENTAL CLINIC @ 2023</WebsiteRights>
           <SocialIcons>
-            <SocailIconLink href='/' target='_blank' aria-label="Facebook"> 
+            <SocialIconLink href='/' target='_blank' aria-label="Facebook"> 
               <FaFacebook />
-            </SocailIconLink>
-            <SocailIconLink href='/' target='_blank' aria-label="Twitter"> 
+            </SocialIconLink>
+            <SocialIconLink href='/' target='_blank' aria-label="Twitter"> 
               <FaTwitter />
-            </SocailIconLink>
-            <SocailIconLink href='/' target='_blank' aria-label="Instagram"> 
+            </SocialIconLink>
+            <SocialIconLink href='/' target='_blank' aria-label="Instagram"> 
               <FaInstagram />
-            </SocailIconLink>
-            <SocailIconLink href='/' target='_blank' aria-label="Linkedin"> 
+            </SocialIconLink>
+            <SocialIconLink href='/' target='_blank' aria-label="Linkedin"> 
               <FaLinkedin />
-            </SocailIconLink>
+            </SocialIconLink>
           </SocialIcons>
         </SocialMedia>
       </FooterLinksContainer>
