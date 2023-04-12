@@ -4,7 +4,7 @@ export const homeObjOne = {
     imgStart: '', 
     ligthTopLine: true, 
     lightTextDesc: true,
-    topLine: 'Dental Clinic' ,
+    topLine: 'KIM CLEMENS DENTAL CLINIC' ,
     lightText: true,
     headline: 'Your Great Smile Begins With a Great Dentist',
     buttonLabel: 'Learn More',

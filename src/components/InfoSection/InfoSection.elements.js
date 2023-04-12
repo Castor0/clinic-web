@@ -5,6 +5,12 @@ export const InfoSec = styled.div`
     color: #fff;
     padding: 160px 0;
     background: ${({lightBg}) => (lightBg ? '#fff' : '#1d1022')};
+    height: 860px;
+    
+
+    @media screen and (max-width: 768px) {
+        height: 1100px;
+    }
 
 `;
 
