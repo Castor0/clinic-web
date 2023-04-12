@@ -8,8 +8,6 @@ const Home = () => {
     <InfoSection  {...homeObjTwo}/>
     <InfoSection  {...homeObjThree}/>
     <Pricing />
-    
-
    </>
   )
 }

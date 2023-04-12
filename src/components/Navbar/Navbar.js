@@ -54,10 +54,10 @@ const Navbar = () => {
                     <NavLinks to='/'>Home</NavLinks>
                   </NavItem>
                   <NavItem>
-                    <NavLinks to='/services'>Services</NavLinks>
+                    <NavLinks to='/about'>About Us</NavLinks>
                   </NavItem>
                   <NavItem>
-                    <NavLinks to='/about'>About Us</NavLinks>
+                    <NavLinks to='/about'>Services</NavLinks>
                   </NavItem>
                   <NavItemBtn>
                     {button ? (
