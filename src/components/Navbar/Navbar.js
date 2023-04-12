@@ -24,6 +24,7 @@ const Navbar = () => {
 
 
  const handleClick = () => setClick(!click);
+ const closeMobileMenu = () => setClick(false)
 
  const showButton = () => {
   if (window.innerWidth <= 960) {
@@ -40,7 +41,7 @@ const Navbar = () => {
     <IconContext.Provider value={{ color: '#fff'}}>
           <Nav>
             <NavBarContainer>
-                <NavLogo to='/'>
+                <NavLogo to='/' onClick={closeMobileMenu}>
                     <NavIcon />
                     KIM CLEMENS DENTAL CLINIC
                 </NavLogo>

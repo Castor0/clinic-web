@@ -30,14 +30,14 @@ export const NavLogo = styled(Link)`
     color: #fff;
     justify-self: start;
     cursor: pointer;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     text-decoration: none;
     display: flex;
     align-items: center;
 
 
 @media screen and (max-width: 960px) {
-    font-size: 1.25rem;
+    font-size: 1.48rem;
 }
 `;
 
